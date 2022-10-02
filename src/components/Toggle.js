@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import { Checkbox } from 'reakit/Checkbox'
-import { Moon, Sun } from 'components/icons'
+import { Moon, SunFill } from 'components/icons'
 
 const Label = styled.label`
   width: 52px;
@@ -99,7 +99,7 @@ const Toggle = ({ onChange = () => {}, ...props }) => {
         <Moon width={12} style={{ marginLeft: 4 }} />
       </Span>
       <Span checked={!checked} style={{ opacity: checked ? '0' : '1' }}>
-        <Sun width={13} style={{ marginRight: 4 }} />
+        <SunFill width={13} style={{ marginRight: 4 }} />
       </Span>
     </Label>
   )

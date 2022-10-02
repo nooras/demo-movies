@@ -10,4 +10,5 @@ export { default as Settings } from './Settings'
 export { default as Star } from './Star'
 export { default as Stream } from './Stream'
 export { default as Sun } from './Sun'
+export { default as SunFill } from './SunFill';
 export { default as Twitter } from './Twitter'
