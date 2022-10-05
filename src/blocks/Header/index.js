@@ -36,6 +36,12 @@ const Searchbox = styled(BaseSearchbox)`
 
 const Logo = styled.img`
   display: flex;
+  @media (min-width: ${get('breakpoints.mobile')}) {
+    width: 180px;
+  }
+  @media (min-width: ${get('breakpoints.tablet')}) {
+    width: 210px;
+  }
 `
 
 const Logos = styled.div`
