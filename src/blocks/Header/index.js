@@ -42,6 +42,9 @@ const Logo = styled.img`
   @media (min-width: ${get('breakpoints.tablet')}) {
     width: 210px;
   }
+  @media (min-width: ${get('breakpoints.desktop')}) {
+    width: 250px;
+  }
 `
 
 const Logos = styled.div`
